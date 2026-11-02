@@ -1,0 +1,13 @@
+# Install a matching CUDA-enabled PyTorch build first; mamba-ssm compiles CUDA ops.
+torch>=2.1
+torchvision
+mmengine==0.10.7
+mmcv==2.1.0
+mmsegmentation==1.2.2
+mmdet==3.3.0
+timm==1.0.15
+mamba-ssm>=2.2.4,<3
+einops>=0.8
+numpy>=1.24,<2
+scipy>=1.10
+Pillow>=10
